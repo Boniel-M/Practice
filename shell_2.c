@@ -65,4 +65,5 @@ int main(void) {
 
     free(buffer);
 
-    return EXIT_SUCCESS
+    return EXIT_SUCCESS;
+}
