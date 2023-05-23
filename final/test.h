@@ -10,14 +10,15 @@
 #include <dirent.h>
 
 
-extern char** environ;
+extern char **environ;
 #define MAX_COMMAND_LENGTH 100
 
 void displayPrompt(void);
-void parseCommand(char* command);
-void exitShell();
-void printEnvironment();
-int handlePath(char* command);
+void parseCommand(char *command);
+void exitShell(void);
+void printEnvironment(void);
+int handlePath(char *command);
 size_t my_getline(char **string, size_t *n, FILE *stream);
 void exit_Shell(int status);
-#endif
+
+#endif /* TEST_H */

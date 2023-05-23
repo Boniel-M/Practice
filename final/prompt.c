@@ -1,7 +1,10 @@
 #include "test.h"
-
-void displayPrompt() 
+/**
+ * displayPrompt - Funtion that displays prompt
+ *
+ * Return: void
+ */
+void displayPrompt(void)
 {
-    write(STDOUT_FILENO, "Boniel_Ben-Shell$ ", 18);
+	write(STDOUT_FILENO, "Boniel_Ben-Shell$ ", 18);
 }
-
