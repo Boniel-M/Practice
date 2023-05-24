@@ -1,4 +1,6 @@
 #include "test.h"
+#include <stdbool.h>
+
 /**
  * my_strtok - function that prints strings of a path
  *
@@ -7,11 +9,10 @@
  *
  * Return: a token
  */
-#include <stdbool.h>
 
 char *my_strtok(char *str, const char *delimiters)
 {
-	static char *next_token = NULL;
+	static char *next_token;
 	/* Stores the next token position */
 
 	if (str != NULL)
