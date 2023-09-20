@@ -25,7 +25,7 @@ int handlePath(char *command)
 		write(STDOUT_FILENO, "PATH variable not found\n", 24);
 		return (0);
 	}
-	
+
 	token = strtok(path, ":");
 
 	while (token != NULL)

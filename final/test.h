@@ -20,5 +20,6 @@ void printEnvironment(void);
 int handlePath(char *command);
 size_t my_getline(char **string, size_t *n, FILE *stream);
 void exit_Shell(int status);
-void executeCommand(char* command);
+void executeCommand(char *command);
+
 #endif /* TEST_H */
